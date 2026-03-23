@@ -1,0 +1,60 @@
+[SwitchyOmega Conditions]
+; Require: SwitchyOmega >= 2.3.2
+; Date: 2024/10/10
+; Usage: https://github.com/FelisCatus/SwitchyOmega/wiki/RuleListUsage
+
+; Mutil：- DOMAIN,☑〓(主域名)〓☑YES-YES-收藏夹☑,🔰🌍📲🍎🐟
+; 〓▲START▲〓：*.google.*
+*.google.*
+*.youtube.*
+*.blogger.*
+*.blogspot.*
+; 〓▲START▲〓：子-子-子
+*.ytimg.*
+*.gstatic.*
+*.withgoogle.*
+*.googleapis.*
+*.googlevideo.*
+*.googleusercontent.*
+; 〓▼END▼〓：*.google.*
+
+; Mutil₂²：- DOMAIN,☑〓(主域名)〓☑YES-YES-收藏夹☑,🔰🌍📲🍎🐟
+; 〓▲START▲〓：*.instagram.*
+*.instagram.*
+*.cdninstagram.*
+; 〓▼END▼〓：*.instagram.*
+; 〓▲START▲〓：数字货币
+*.okx.*
+*.htx.*
+*.huobi.*
+; 〓▲START▲〓：子-子-子
+*.binance.*
+*.bnbstatic.*
+*.hbfile.*
+; 〓▼END▼〓：数字货币
+
+; Single：- DOMAIN,☑〓(主域名)〓☑YES-YES-收藏夹☑,🔰🌍📲🍎🐟
+; ★coding 开发
+*.v2ex.*
+*.github.*
+; ★app 应用
+*.apk.*
+*.apkmirror.*
+; ★map 地图
+*.sentinel-hub.*
+*.copernicus.eu
+*.openstreetmap.*
+*.openrailwaymap.*
+; ★movie 影视
+*.dytt8899.*
+*.88dm.*
+*.857fans.*
+*.cilimao.*
+*.imdb.*
+*.cloudfront.*
+*.media-amazon.*
+*.themoviedb.*
+; ★game 游戏
+*.steampowered.*
+*.steamcommunity.*
+; 〓▼END▼〓：ALL-ALL-ALL
